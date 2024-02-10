@@ -32,6 +32,38 @@ export default function Home() {
           <p>This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p>
           <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p>
         </div>
+
+        <div id="padding-tutorial" className="bg-red-500 text-white font-bold px-1">
+          Hello!
+        </div>
+
+        <div id="margin_tutorial">
+          <div className="bg-blue-500 text-white font-bold m-4">
+            Box with margin
+          </div>
+          <div className="bg-red-500 text-white font-bold p-4">
+            Box with padding
+          </div>
+
+          <h1 className="mb-4 text-2xl font-bold">This is my title</h1>
+          <p>This is my paragraph</p>
+
+          <div class="h-16 bg-sky-400 opacity-20"></div>
+          <div class="-mt-8 bg-sky-300">-mt-8</div>
+        </div>
+
+        <div id="space-between" className="flex space-x-4 w-full min-h-screen">
+          <div className="w-1/5 bg-red-500">Sidebar</div>
+          <div className="w-4/5 bg-green-500">Main content</div>
+        </div>
+
+        <div className="Parent">
+          <div>Header</div>
+          <div className="flex">
+            <div>Main content</div>
+            <div>Sidebar</div>
+          </div>
+        </div>
     </div>
   );
 }
